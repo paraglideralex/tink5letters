@@ -48,7 +48,7 @@ print(Dict5)
 Wordss={}
 
 # если нужно отсеять первое слово
-for let in 'порка':
+for let in 'поркабилет':
     Dict1[let]=0
     Dict2[let]=0
     Dict3[let]=0
@@ -67,9 +67,9 @@ for word in liss:
 # dict(sorted(Wordss.items()))
 with open('Sort.txt', 'w', encoding="utf-8") as out_text:
     for key , val in Wordss.items():
-        # print(key, file=out_text, end='')
+        print(key, file=out_text, end='')
         # print(key + '  \t  '+str(val), file=out_text, end='')
-        print(val, file=out_text, end='\n')
+        # print(val, file=out_text, end='\n')
 
 
 

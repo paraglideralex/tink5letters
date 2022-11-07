@@ -14,12 +14,12 @@ with open('OUT.txt', 'r', encoding="utf-8") as lorem_ipsum_text:
         liss.append(line)
         k+=1
 
-letter1 = '[^неамтв]'
-letter2 = '[^неамтво]'
-letter3 = '[р]'
-letter4 = '[^неамтвки]'
-letter5 = '[^неамтв]'
-total = 'ркои'
+letter1 = '[г]'
+letter2 = '[^ок]'
+letter3 = '[^окр]'
+letter4 = '[^ок]'
+letter5 = '[^ока]'
+total = 'гар'
 p=0
 lsout=[]
 with open('ChOUT.txt', 'w', encoding="utf-8") as outt:
